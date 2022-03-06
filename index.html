@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link href="/assets/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Landing Section -->
+    <section class="landing">
+        <!-- Header Section -->
+        <nav>
+            <!-- Navigation Desktop -->
+            <div>
+                <ul class="menu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Hamburger Button -->
+            <div class="flex justify-end">
+                <button class="hamburger hamburger--collapse " id="hamburger" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+            <!-- Navigation Mobile -->
+            <!-- <div class="hidden" id="menu">
+                <ul class="menu menu--mobile">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div> -->
+        </nav>
+
+        <!-- Intro Text  -->
+        <article class="intro">
+            <div class="intro__item">
+                <h1>Let’s find your Paradise</h1>
+                <p>Find your favorite place to live</p>
+                <a class="btn mt-[70px]">Discover Now</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="w-full">
+        <div class="filtr shadow">
+            <div class="filter__item">
+                <article>
+                    <h4>Location</h4>
+                    <h3>London, UK</h3>
+                </article>
+                <article>
+                    <h4>Type</h4>
+                    <h3>Apartment</h3>
+                </article>
+                <article>
+                    <h4>Budget</h4>
+                    <h3>$200</h3>
+                </article>
+            </div>
+            <a class="btn btn--big">Find</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- Search Section -->
+        <section class="overflow-hidden">
+            <div class="search">
+                <img class="search__bg search__bg--right" src="/assets/images/map.svg" alt="map image">
+                <img class="search__bg search__bg--left" src="/assets/images/map.svg" alt="map image">
+                <div class="search__item">
+                    <h1 class="search__title">We are in almost all parts of the world</h1>
+                    <p class="search__p">So don't worry, you can use our service wherever you are</p>
+                    <form class="search__search">
+                        <img src="/assets/images/icon/search.svg" alt="search icon">
+                        <input class="search__search__input" type="text" placeholder="London, United Kingdom">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Apartments Section -->
+        <section>
+            <header class="header">
+                <h1>Most Popular</h1>
+                <p>on <span>London</span></p>
+            </header>
+            <div class="apartment">
+
+                <!-- Single Apartment -->
+                <article class="apartment__item apartment__item--start">
+                    <div class="card">
+                        <div class="card__img" style="background-image: url(/assets/images/mp1.png);">
+                            <div class="evaluation">
+                                <span class="evaluation__item">4.6</span>
+                                <img src="/assets/images/icon/star.svg" alt="star icon">
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__title">Container Apartment</a>
+                            <p class="card__desc">London, United Kingdom</p>
+                            <h4 class="price">$220 <span>/per week</span></h4>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Single Apartment -->
+                <article class="apartment__item apartment__item--center">
+                    <div class="card card--center">
+                        <div class="card__img card__img--center" style="background-image: url(/assets/images/mp2.png);">
+                            <div class="evaluation evaluation--center">
+                                <span class="evaluation__item--center">4.8</span>
+                                <img src="/assets/images/icon/star.svg" alt="star icon">
+                            </div>
+                        </div>
+                        <div class="card__footer--center">
+                            <a class="card__title--center">Mera Apartment</a>
+                            <p class="card__desc--center">London, United Kingdom</p>
+                            <h4 class="price--center">$240 <span>/per week</span></h4>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Single Apartment -->
+                <article class="apartment__item apartment__item--end">
+                    <div class="card">
+                        <div class="card__img" style="background-image: url(/assets/images/mp3.png);">
+                            <div class="evaluation">
+                                <span class="evaluation__item">4.4</span>
+                                <img src="/assets/images/icon/star.svg" alt="star icon">
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__title">Sun Apartment</a>
+                            <p class="card__desc">London, United Kingdom</p>
+                            <h4 class="price">$180 <span>/per week</span></h4>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section>
+            <header class="header mb-[60px]" >
+                <h1>Get all the</h1>
+                <h1>best services with us</h1>
+                <p>we have many advantages over many</p>
+                <p>other competitors</p>
+            </header>
+            <div class="service">
+                <!-- Single Service -->
+                <article class="service__item service__item--start">
+                    <div class="service__box">
+                        <div class="service__icon">
+                            <svg id="vuesax_linear_tag" data-name="vuesax/linear/tag" xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+                                <g id="vuesax_linear_tag-2" data-name="vuesax/linear/tag">
+                                    <g id="tag">
+                                        <path id="Vector" d="M5.619,50.105l18.12,18.12a19.121,19.121,0,0,0,27,0L68.3,50.665a19.121,19.121,0,0,0,0-27L50.139,5.585a19,19,0,0,0-14.4-5.56l-20,.96A15.455,15.455,0,0,0,.979,15.665l-.96,20A19.216,19.216,0,0,0,5.619,50.105Z" transform="translate(11.061 11.095)" fill="none" stroke="#2db7ae" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+                                        <path id="Vector-2" data-name="Vector" d="M20,10A10,10,0,1,1,10,0,10,10,0,0,1,20,10Z" transform="translate(28 28)" fill="none" stroke="#2db7ae" stroke-linecap="round" stroke-width="5"/>
+                                        <path id="Vector-3" data-name="Vector" d="M0,0H96V96H0Z" fill="none" opacity="0"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="service__title">
+                            <h3>Book anytime</h3>
+                        </div>
+                        <div class="lg:px-[76px] px-2 text-center">
+                            <p class="text-lg">
+                                You can order anytime, and your order will be safe even though 
+                                it is far from the order date
+                            </p>
+                        </div>
+                    </div>
+                </article>
+    
+                <!-- Single Service -->
+                <article class="service__item service__item--center">
+                    <div class="service__box service__box--center">
+                        <div class="service__icon">
+                            <img src="/assets/images/icon/ticket-discount.svg" alt="discount icon">  
+                        </div>
+                        <div class="service__title">
+                            <h3>Lots of discounts</h3>
+                        </div>
+                        <div class="lg:px-[76px] px-2 text-center">
+                            <p class="text-lg">
+                                The more you order, the cheaper the discount. the more you don't have to
+                                worry about running out of money while traveling
+                            </p>
+                        </div>
+                    </div>
+                </article>
+    
+                <!-- Single Service -->
+                <article class="service__item service__item--end">
+                    <div class="service__box">
+                        <div class="service__icon">
+                            <img src="/assets/images/icon/shield-tick.svg" alt="tick icon">  
+                        </div>
+                        <div class="service__title">
+                            <h3>Guaranteed Service</h3>
+                        </div>
+                        <div class="lg:px-[76px] px-2 text-center">
+                            <p class="text-lg">
+                                Secure payment, you don't have to worry. Because your every order
+                                is always guaranteed
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <div class="w-full lg:h-[2075px] overflow-hidden" style="background: linear-gradient(180deg, rgb(255,255,255,0%), rgb(255,255,255,100%))">
+        <!-- Say About Our Service Section -->
+        <section class="about">
+            <header class="header ">
+                <h1>What do they</h1>
+                <h1>say about our service</h1>
+                <p>We have many loyal customers, this is what they say about us</p>
+            </header>
+            <div class="about__item">
+                <div class="relative">
+                    <img class="absolute lg:z-0 -z-20" src="/assets/images/Vector-left.svg" alt="">
+                    <img class="about__img top-[184px] right-[58%] lg:z-10 -z-10" src="/assets/images/person4.png" alt="">
+                    <img class="about__img -top-[75px] left-[164px] lg:z-0 -z-10" src="/assets/images/person5.png" alt="">
+                    <img class="about__img top-[113px] left-7 lg:z-0 -z-10" src="/assets/images/person6.png" alt="">
+                </div>
+                <div>
+                    <article class="box">
+                        <img class="box__icon_favorite" src="/assets/images/icon/message-favorite.svg" alt="message-favorite icon">
+                        <div class="box__item">
+                            <p>I get the best service everywhere 
+                                I go. Vind makes it easy for me to 
+                                get the best service.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="relative">
+                    <img class="absolute about__img--right lg:z-0 -z-20" src="/assets/images/Vector-right.svg" alt="">
+                    <img class="about__img -right-5 -bottom-6 lg:z-0 -z-10" src="/assets/images/person1.png" alt="">
+                    <img class="about__img right-0 bottom-22 lg:z-0 -z-10" src="/assets/images/person2.png" alt="">
+                    <img class="about__img right-[18%] bottom-0 lg:z-0 -z-10" src="/assets/images/person3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="down">
+            <div class="flex md:flex-row flex-col">
+                <div class="down__img">
+                    <img src="/assets/images/iphon.png" alt="iphon image">
+                </div>
+                <div class="down__title">
+                    <h1>Download our apps</h1>
+                    <p>Get a better experience just from 
+                        the palm of your hand</p>
+                    <div class="down__btn">
+                        <button class="btn-outline">
+                            <img src="/assets/images/icon/google_play.svg" alt="">
+                            <div class="flex justify-start flex-col ml-[16.4px]">
+                                <span class="text-[11.51px] text-left">Get it on</span>
+                                <h6 class="text-lg font-medium">Google Play</h6>
+                            </div>
+                        </button>
+                        <button class="btn-outline">
+                            <img src="/assets/images/icon/apple.svg" alt="">
+                            <div class="flex justify-start flex-col">
+                                <span class="text-[11.51px] text-left">Get it on</span>
+                                <h6 class="text-lg font-medium">App Store</h6>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="pt-16 sm:text-left text-center">
+                    <h1 class="text-4xl font-bold">Vin</h1>
+                    <p class="text-base sm:w-[176px] mt-[9px] leading-7">Main Building, Bandung
+                        West Java, Indonesia </p>
+                    <div class="flex items-center sm:justify-start justify-center gap-[15px] mt-[17px]">
+                        <img src="/assets/images/icon/insta.svg" alt="instagram icon">
+                        <img src="/assets/images/icon/twitter.svg" alt="twitter icon">
+                    </div>
+                </div>
+                <div class="sm:flex hidden gap-[99px] pt-16">
+                    <div>
+                        <h1 class="footer__title">Useful</h1>
+                        <p class="footer__item">Find Vendor</p>
+                        <p class="footer__item">Find job</p>
+                        <p class="footer__item">Our</p>
+                    </div>
+                    <div>
+                        <h1 class="footer__title">More</h1>
+                        <p class="footer__item">About us</p>
+                        <p class="footer__item">Our mission</p>
+                        <p class="footer__item">How it</p>
+                    </div>
+                </div>
+                <div class="absolute sm:left-[138px] bottom-[20px] text-center">
+                    <p class="text-base">Vind Pty. Ltd 2011-2021©, All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    
+
+
+
+    <script src="/assets/scripts/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('#hamburger').click(() => {
+                $('#hamburger').toggleClass('is-active');
+                $('#menu').toggle();
+            })
+        })
+    </script>
+</body>
+</html>
