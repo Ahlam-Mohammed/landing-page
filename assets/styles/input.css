@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* reset */
 *{
     @apply leading-tight	!important
 }
 body{
     @apply bg-slate-200 font-rubik ;
 }
+
 /* Color */
 h1,h4,h6,a,
 .evaluation__item{
@@ -17,7 +19,7 @@ h3,input,p,span{
     @apply text-cyan-800
 }
 
-
+/* basic style */
 h4{
     @apply lg:text-22 text-lg
 }
@@ -25,8 +27,7 @@ h3{
     @apply lg:text-28 text-2xl
 }
 
-
-
+/* Button Block */
 .btn{
     @apply w-60 h-[70px] bg-Teal-600 py-[21px] pl-[42px] pr-[41px] 
             text-2xl font-medium rounded-[10px] block text-white
@@ -35,12 +36,16 @@ h3{
     @apply lg:h-[80px] lg:w-60 lg:pt-[24px] lg:pb-[23px] lg:pl-[91px] lg:pr-[90px] text-28
             w-36
 }
+
+/* Shadow Block */
 .shadow{
     box-shadow: 0 4px 32px rgb(61, 105, 119 , 10%);
 }
 .shadow--sm{
     box-shadow: 0 4px 32px rgb(61, 105, 111, 5%);
 }
+
+/* Header Section Block */
 .header{
     @apply text-center md:mb-[80px] mb-12 px-4
 }
@@ -54,10 +59,12 @@ h3{
     @apply text-Teal-600
 }
 
-
+/* Landing Background */
 .landing{
     @apply bg-[url('../images/landing.png')] lg:bg-bottom bg-bottom-center lg:h-[64.875rem];
 }
+
+/* Menu Block */
 .menu{
     @apply sm:flex hidden justify-center items-center pt-8;
 }
@@ -77,7 +84,7 @@ h3{
     @apply sm:hidden block
 }
 
-
+/* Introduction Text Block */
 .intro{
     @apply  lg:w-[49.313rem] 
 }
@@ -92,7 +99,6 @@ h3{
 .intro p{
     @apply text-cyan-900 text-2xl mt-[20px]
 }
-
 
 /* Filter Block */
 .filtr{
@@ -110,7 +116,6 @@ h3{
 .filtr .btn{
     @apply mt-[30px] lg:mr-[37px] mr-5
 }
-
 
 /* Search Block */
 .search{
@@ -143,11 +148,6 @@ h3{
 .search__bg.search__bg--left{
     @apply left-3/4
 }
-
-
-
-
-
 
 /* Apartment Block */
 .apartment{
@@ -232,8 +232,6 @@ h3{
     @apply sm:text-xl text-base
 }
 
-
-
 /* Services Block */
 .service{
     @apply grid md:grid-cols-3 lg:w-full lg:px-[150px] m-auto lg:pb-[282px]
@@ -251,9 +249,6 @@ h3{
 .service__item--center{
     @apply justify-center
 }
-
-
-
 .service__box{
     @apply lg:w-[360px] lg:h-[460px] rounded-[20px] md:pt-[70px] md:pb-[75px]
             md:w-[330px] md:h-[360px] w-11/12 h-[290px] pt-3;
@@ -266,9 +261,6 @@ h3{
 .service__icon{
     @apply flex justify-center row-auto;
 }
-/* .service__icon svg{
-    @apply md-w-[96px] md:h-[96px]
-} */
 .service__title{
     @apply text-center sm:mt-10 sm:mb-[30px] my-1
 }
@@ -276,11 +268,7 @@ h3{
     @apply text-2xl leading-none text-cyan-900;
 }
 
-
-
-
-
-
+/* About Block */
 .about{
     @apply h-[695.23px]
 }
@@ -297,7 +285,7 @@ h3{
     @apply top-[74px] left-[5px];
 }
 
-
+/* Box Message Block */
 .box{
     @apply relative md:w-[530.86px] w-11/12 h-[300px] m-auto rounded-[10px] shadow--sm;
     background: linear-gradient(rgb(255, 255, 255, 67%), rgb(255, 255, 255, 100%)); 
@@ -312,8 +300,7 @@ h3{
     @apply absolute right-[37.9px] top-[32px];
 }
 
-
-
+/* Download Block */
 .down{
     @apply lg:h-[587.86px] w-full lg:mb-[216.2px]  lg:mt-[243.7px] mt-11 lg:pl-[155px] lg:pr-[171px]
             md:px-[50px] px-5 md:mb-[96.2px] mb-12
@@ -336,15 +323,13 @@ h3{
     @apply flex items-center gap-[15px] mt-[31px] sm:flex-row flex-col
 }
 
-
-
+/* Button Outline Block */
 .btn-outline{
     @apply md:w-[200px] w-full h-[70px] flex items-center rounded-[7.19px];
     border: 0.43px solid #7599A9;
 }
 
-
-
+/* Footer Section */
 .footer{
     @apply w-full sm:h-[381px] h-[300px] md:pl-[137px] grid lg:grid-cols-3 sm:grid-cols-3 grid-cols-1 
     relative sm:bg-right bg-left-top bg-no-repeat bg-[url('../images/footer.png')] px-7
